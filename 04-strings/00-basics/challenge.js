@@ -3,11 +3,11 @@ module.exports.formLetter = function(firstName, senderName, message) {
 };
 
 module.exports.sliceItAndCombineIt = function(bigString, startA, endA, startB, endB) {
-
+sliceItAndCombineIt.substring(startA, endA) + sliceItAndCombineIt.substring(startB, endB);
 };
 
 module.exports.findFirstMatch = function(text, searchString) {
-
+findFirstMatch.indexOf(searchString)
 };
 
 module.exports.findLastMatch = function(text, searchString) {
