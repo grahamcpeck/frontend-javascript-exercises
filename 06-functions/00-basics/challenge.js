@@ -1,11 +1,7 @@
-module.exports.helloWorld = undefined;
-
-var helloWorld = function() {
+module.exports.helloWorld = function() {
   return 'Hello World';
-}
+};
 
-module.exports.multiply = undefined;
-
-var multiply = function(x, y) {
+module.exports.multiply = function(x, y) {
   return x*y;
-}
+};
